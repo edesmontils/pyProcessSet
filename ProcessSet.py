@@ -12,8 +12,7 @@ Application to manage a set of processus
 import multiprocessing as mp
 from queue import Empty
 
-from tools.tools import *
-from tools.Stat import *
+from Stat import *
 
 class ProcessSet:
 	def __init__(self, nb_processes, func, *args):
